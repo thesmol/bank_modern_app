@@ -19,6 +19,11 @@ export const navLinks = [
   },
 ];
 
+export const discountText = {
+  percent: '20%',
+  months: '1 Month'
+}
+
 export const features = [
   {
     id: "feature-1",
