@@ -7,6 +7,9 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      backgroundImage: theme => ({
+        'blue-gradient': 'linear-gradient(to left, #def9fa, #33bbcf)',
+      }),
       colors: {
         primary: "#00040f",
         secondary: "#00f6ff",
